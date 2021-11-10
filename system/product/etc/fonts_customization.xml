@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fonts-modification version="1">
+    <!-- lxgw 注：本文件用于覆盖类原生系统内置的 Google Sans 字体，提高自定义字体在类原生系统的覆盖率。-->
+    <family customizationType="new-named-family" name="google-sans">
+        <font weight="100" style="normal">EmptyFont-Thin.ttf</font>
+        <font weight="100" style="italic">EmptyFont-ThinItalic.ttf</font>
+        <font weight="300" style="normal">EmptyFont-Light.ttf</font>
+        <font weight="300" style="italic">EmptyFont-LightItalic.ttf</font>
+        <font weight="400" style="normal">EmptyFont-Regular.ttf</font>
+        <font weight="400" style="italic">EmptyFont-Italic.ttf</font>
+        <font weight="500" style="normal">EmptyFont-Medium.ttf</font>
+        <font weight="500" style="italic">EmptyFont-MediumItalic.ttf</font>
+        <font weight="900" style="normal">EmptyFont-Black.ttf</font>
+        <font weight="900" style="italic">EmptyFont-BlackItalic.ttf</font>
+        <font weight="700" style="normal">EmptyFont-Bold.ttf</font>
+        <font weight="700" style="italic">EmptyFont-BoldItalic.ttf</font>
+    </family>
+    <alias name="google-sans-medium" to="google-sans" weight="500" />
+    <alias name="google-sans-bold" to="google-sans" weight="700" />
+    <alias name="google-sans-text" to="google-sans"/>
+    <alias name="google-sans-text-medium" to="google-sans" weight="500" />
+    <alias name="google-sans-text-bold" to="google-sans" weight="700" />
+</fonts-modification>
