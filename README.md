@@ -10,7 +10,7 @@
 
 ## 使用方法
 
-1. 在 [Release](https://github.com/lxgw/simple-cjk-font-magisk-module-template/releases/latest) 界面下载 zip 格式的模块模板 **FontTemplate-Magisk204.zip** *（不要直接选择 Download Zip）* 。
+1. 在 [Release](https://github.com/lxgw/advanced-cjk-font-magisk-module-template/releases/latest) 界面下载 zip 格式的模块模板 **FontTemplate-Magisk204.zip** *（不要直接选择 Download Zip）* 。
 2. 利用压缩软件 *（电脑上如 7-zip，手机上如 MT 管理器）* 打开模块模板包内的 `/system/fonts` 文件夹，向里面添加 ttf 或 otf 格式的字体文件。字体文件的命名按照第 3 步的指示。
 3. 要使加入的字体能够正常显示，**字体文件须遵循以下命名规则**：
    - 将喜爱的 TTF 格式字体按字重（粗细）及语言（或优先级）依次重命名为`fontxxwy.ttf`，复制到模块的「system/fonts」目录下刷入重启。**重命名方式如下：**
