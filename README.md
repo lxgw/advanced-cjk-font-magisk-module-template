@@ -14,19 +14,27 @@
 2. 利用压缩软件 *（电脑上如 7-zip，手机上如 MT 管理器）* 打开模块模板包内的 `/system/fonts` 文件夹，向里面添加 ttf 或 otf 格式的字体文件。字体文件的命名按照第 3 步的指示。
 3. 要使加入的字体能够正常显示，**字体文件须遵循以下命名规则**：
    - 将喜爱的 TTF 格式字体按字重（粗细）及语言（或优先级）依次重命名为`fontxxwy.ttf`，复制到模块的「system/fonts」目录下刷入重启。**重命名方式如下：**
-   
      - `xx`表示 TTF 格式字体的语言代号。本模块模板支持斜体西文。
    
-       | 代号 | 语言         | 优先级                           |
-       | ---- | ------------ | -------------------------------- |
-       | en   | 西文（常规） | 最高优先级                       |
-       | ei   | 西文（斜体） | 最高优先级（斜体时调用）         |
-       | ch   | 中文         | 简体、繁体中文语言状态下优先调用 |
-       | kr   | 韩文         | 韩语状态下优先调用               |
-       | jp   | 日文         | 日语状态下优先调用               |
+       | xx 代号 | 语言 | 优先级                           |
+       | ------- | ---- | -------------------------------- |
+       | ch      | 中文 | 简体、繁体中文语言状态下优先调用 |
+       | kr      | 韩文 | 韩语状态下优先调用               |
+       | jp      | 日文 | 日语状态下优先调用               |
    
      - `wy`表示 TTF 格式字体的字重等级，从 1 至 9 由细到粗。**系统正文调用的基准字重（即 Regular 字重）**，`y` 数值为 4；**系统标题文本、加粗文本调用的粗字重（即 Bold 字重）**，`y` 数值为 7；Light、Medium 字重 `y` 分别为 3 和 5，`y` 越小则字重越细，越大则字重越粗。
    
+       | y 值 | 字重（Font-Weight） | 中文名称 |
+       | ---- | ------------------- | -------- |
+       | 1    | Thin (100)          | 极细     |
+       | 2    | UltraLight (200)    | 纤细     |
+       | 3    | Light (300)         | 细体     |
+       | 4    | Regular (400)       | 常规     |
+       | 5    | Medium (500)        | 中等     |
+       | 6    | SemiBold (600)      | 次粗     |
+       | 7    | Bold (700)          | 粗体     |
+       | 8    | ExtraBold (800)     | 特粗     |
+       | 9    | Heavy/Black (900)   | 超粗     |
      **例如：** `fontchw4.ttf`表示中文部分的正文字重，`fonteiw7.ttf`表示西文部分的粗斜体。
 4. 模块根目录的 `module.prop` 用于存放模块信息，如模块的名称、版本号、作者等。
    - `id`：模块的代号，仅可包括**字母、数字及半角符号，不包含空格**。**相同 id 的 Magisk 模块不能共存。**
@@ -49,7 +57,7 @@
 3. `/system/etc/fonts.xml` 为字体配置文件，已经过调整以调用空字体及自定义字体，经本人所持有的两部 Android 手机测试 *(Redmi Note 5, Pixel Expericence 12.0, Android 12; Redmi K20 Pro, crDroid 7.9, Android 11)* 均可正常使用，**理论上**可兼容 Android 12 和 Android 11，**但不保证所有 ROM 均能正常使用**。不同 ROM 调用字体的配置文件可能不同，请参阅下面的 **「兼容性调整」** 。
 4. 添加字体时注意各种语言字体的字重对应。若有些 CJK 字体里既包含中文也包含韩文，则不必加韩文字体。若想使用中文字体自带的西文，则不必加英文字体。
 5. **本模块模板最低支持 Magisk 20.4。**
-6. 在用过 Magisk Hide 或者 Zygisk 之后的 Android 12 系统刷入本模板制作的字体模块导致被选中的应用闪退，请参考[这里](https://github.com/lxgw/advanced-cjk-font-magisk-module-template/issues/1#issuecomment-1003711583)；如果不想对 system 分区作改动，可改用 [CJK-only 模块模板](https://github.com/lxgw/cjk-only-font-magisk-module-template/) ，仅替换 CJK 部分字体，保留 Roboto 字体首先调用，防止 Android 12 中 Magisk Hide 或 Zygisk 勾选的应用闪退。。
+6. 在用过 Magisk Hide 或者 Zygisk 之后的 Android 12 系统刷入本模板制作的字体模块导致被选中的应用闪退，请参考[这里](https://github.com/lxgw/advanced-cjk-font-magisk-module-template/issues/1#issuecomment-1003711583)；如果不想对 system 分区作改动，可改用 [CJK-only 模块模板](https://github.com/lxgw/cjk-only-font-magisk-module-template/) ，仅替换 CJK 部分字体，保留 Roboto 字体首先调用，防止 Android 12 中 Magisk Hide 或 Zygisk 勾选的应用闪退。
 
 ## 兼容性调整 <sub>仅供参考</sub>
 
