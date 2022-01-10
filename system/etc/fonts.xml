@@ -59,6 +59,21 @@
         <font weight="800" style="italic">fonteiw8.ttf</font>
         <font weight="900" style="italic">fonteiw9.ttf</font>
    </family>
+    <!-- lxgw 注：调用静态 Roboto 兼容 Android 11 -->
+    <family>
+        <font weight="100" style="normal">Roboto-Thin.ttf</font>
+        <font weight="100" style="italic">Roboto-ThinItalic.ttf</font>
+        <font weight="300" style="normal">Roboto-Light.ttf</font>
+        <font weight="300" style="italic">Roboto-LightItalic.ttf</font>
+        <font weight="400" style="normal">Roboto-Regular.ttf</font>
+        <font weight="400" style="italic">Roboto-Italic.ttf</font>
+        <font weight="500" style="normal">Roboto-Medium.ttf</font>
+        <font weight="500" style="italic">Roboto-MediumItalic.ttf</font>
+        <font weight="900" style="normal">Roboto-Black.ttf</font>
+        <font weight="900" style="italic">Roboto-BlackItalic.ttf</font>
+        <font weight="700" style="normal">Roboto-Bold.ttf</font>
+        <font weight="700" style="italic">Roboto-BoldItalic.ttf</font>
+    </family>
     <!-- lxgw 注：调用动态 Roboto 兼容 Android 12 -->
     <family>
         <font weight="100" style="normal">Roboto-Regular.ttf
@@ -76,7 +91,11 @@
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="300" />
         </font>
-        <font weight="400" style="normal">RobotoStatic-Regular.ttf</font>
+        <font weight="400" style="normal">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="0" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="400" />
+        </font>
         <font weight="500" style="normal">Roboto-Regular.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
@@ -147,21 +166,6 @@
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="900" />
         </font>
-    </family>
-    <!-- lxgw 注：调用静态 Roboto 兼容 Android 11 -->
-    <family>
-        <font weight="100" style="normal">Roboto-Thin.ttf</font>
-        <font weight="100" style="italic">Roboto-ThinItalic.ttf</font>
-        <font weight="300" style="normal">Roboto-Light.ttf</font>
-        <font weight="300" style="italic">Roboto-LightItalic.ttf</font>
-        <font weight="400" style="normal">Roboto-Regular.ttf</font>
-        <font weight="400" style="italic">Roboto-Italic.ttf</font>
-        <font weight="500" style="normal">Roboto-Medium.ttf</font>
-        <font weight="500" style="italic">Roboto-MediumItalic.ttf</font>
-        <font weight="900" style="normal">Roboto-Black.ttf</font>
-        <font weight="900" style="italic">Roboto-BlackItalic.ttf</font>
-        <font weight="700" style="normal">Roboto-Bold.ttf</font>
-        <font weight="700" style="italic">Roboto-BoldItalic.ttf</font>
     </family>
     <!-- lxgw 注：自定义字体部分（终）-->    
 
