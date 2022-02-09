@@ -55,7 +55,7 @@
 ## 注意事项
 
 1. `/system/fonts` 目录内的 **EmptyFont** 为空字体文件，为 Android 默认西文字体 Roboto 的掏空字体，主要提供度量和字重信息，**请勿轻易删除。**
-2. `/system/product` 文件夹内的内容用以覆盖类原生 Android 系统内置的 Google Sans 字体，实现所替换字体在类原生 ROM 上的全局覆盖。若想保留原生 ROM 内置的 Google Sans 字体，请将模块内的 `/system/product` 文件夹删除。*由于目前版本（0.4.3）的 Shamiko 下，使用本模板制作的字体模块会导致排除列表内勾选的应用闪退，经排查为 fonts_customization.xml 的原因，现已将该文件删除，回到旧版模块模板屏蔽 Google Sans 的方式——直接用空字体替换 Google Sans。*
+2. `/system/product` 文件夹内的内容用以覆盖类原生 Android 系统内置的 Google Sans 字体，实现所替换字体在类原生 ROM 上的全局覆盖。若想保留原生 ROM 内置的 Google Sans 字体，请将模块内的 `/system/product` 文件夹删除。*由于目前版本（0.4.3）的 Shamiko 下，使用本模板制作的字体模块会导致排除列表内勾选的应用闪退，经排查为 fonts_customization.xml 的原因，现暂时将该文件删除，回到旧版模块模板屏蔽 Google Sans 的方式——直接用空字体替换 Google Sans。*
 3. `/system/etc/fonts.xml` 为字体配置文件，已经过调整以调用空字体及自定义字体，经本人所持有的两部 Android 手机测试 *(Redmi Note 5, Pixel Expericence 12.0, Android 12; Redmi K20 Pro, crDroid 7.9, Android 11)* 均可正常使用，**理论上**可兼容 Android 12 和 Android 11，**但不保证所有 ROM 均能正常使用**。不同 ROM 调用字体的配置文件可能不同，请参阅下面的 **「兼容性调整」** 。
 4. 添加字体时注意各种语言字体的字重对应。若有些 CJK 字体里既包含中文也包含韩文，则不必加韩文字体。若想使用中文字体自带的西文，则不必加英文字体。
 5. **本模块模板最低支持 Magisk 20.4。**
