@@ -6,7 +6,9 @@
 
 本项目为 **Magisk 字体模块模板**的 GitHub 发行项目。该模板用于制作 Magisk 字体模块，支持 9 个字重，可对西文、中文、日语、韩语字体进行任意搭配。在安装 Magisk 的手机上，使用该模板制作字体模块并刷入，更换字体或许会更简便。
 
-有关套用模板的介绍和原理，请看：[为 Android 换上任意喜欢的字体，你可以试试这个 Magisk 模块（少数派）](https://sspai.com/post/58049)  [简易版](https://github.com/lxgw/advanced-cjk-font-magisk-module-template)
+有关套用模板的介绍和原理，请看：[为 Android 换上任意喜欢的字体，你可以试试这个 Magisk 模块（少数派）](https://sspai.com/post/58049)
+
+[简易版](https://github.com/lxgw/advanced-cjk-font-magisk-module-template)
 
 ## 使用方法
 
