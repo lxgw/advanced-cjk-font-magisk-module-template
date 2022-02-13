@@ -59,7 +59,7 @@
 3. `/system/etc/fonts.xml` 为字体配置文件，已经过调整以调用空字体及自定义字体，经本人所持有的两部 Android 手机测试 *(Redmi Note 5, Pixel Expericence 12.0, Android 12; Redmi K20 Pro, crDroid 7.9, Android 11)* 均可正常使用，**理论上**可兼容 Android 12 和 Android 11，**但不保证所有 ROM 均能正常使用**。不同 ROM 调用字体的配置文件可能不同，请参阅下面的 **「兼容性调整」** 。
 4. 添加字体时注意各种语言字体的字重对应。若有些 CJK 字体里既包含中文也包含韩文，则不必加韩文字体。若想使用中文字体自带的西文，则不必加英文字体。
 5. **本模块模板最低支持 Magisk 20.4。**
-6. ~~在用过 Magisk Hide 或者 Zygisk 之后的 Android 12 系统刷入本模板制作的字体模块导致被选中的应用闪退，请参考[这里](https://github.com/lxgw/advanced-cjk-font-magisk-module-template/issues/1#issuecomment-1003711583)；如果不想对 system 分区作改动，可改用 [CJK-only 模块模板](https://github.com/lxgw/cjk-only-font-magisk-module-template/) ，仅替换 CJK 部分字体，保留 Roboto 字体首先调用，防止 Android 12 中 Magisk Hide 或 Zygisk 勾选的应用闪退。~~ Android 12 需要使用 24.0 及以上版本的 Magisk，开启 Zygisk，配合 Shamiko 0.2.0 及以上版本，并在 Magisk 中取消「遵守排除列表」勾选，隐藏 ROOT 同时防止排除列表内的应用闪退。
+6. Android 12 如需在隐藏 ROOT 的同时使用字体模块，请使用 24.0 及以上版本的 Magisk，开启 Zygisk，配合 Shamiko 0.2.0 及以上版本，并在 Magisk 中取消「遵守排除列表」勾选，防止排除列表内的应用闪退。请不要在用过 Magisk Hide 之后的 Android 12 系统刷入本模板制作的任何字体模块！
 
 ## 兼容性调整 <sub>仅供参考</sub>
 
