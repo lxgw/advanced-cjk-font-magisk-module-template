@@ -8,7 +8,7 @@
 
 有关套用模板的介绍和原理，请看：[为 Android 换上任意喜欢的字体，你可以试试这个 Magisk 模块（少数派）](https://sspai.com/post/58049)
 
-[简易版](https://github.com/lxgw/advanced-cjk-font-magisk-module-template)
+[简易版](https://github.com/lxgw/simple-cjk-font-magisk-module-template)
 
 ## 使用方法
 
