@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+META-INF/** text eol=lf
+*.prop text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
