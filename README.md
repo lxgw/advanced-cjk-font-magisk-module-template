@@ -73,7 +73,7 @@
 - **小米 MIUI 12.5：** 需刷入 [空字体模块 v4.4](https://yukonga.lanzoub.com/iSxAP07pu05i) / [v4.1](https://wwi.lanzoui.com/iEDyZt6a83g)。
 - LG 手机的兼容性调整请参阅： https://github.com/lxgw/advanced-cjk-font-magisk-module-template/issues/2
 - 如有其他设备的兼容性调整，请在 issue 提出。
-- **本模块模板不适用于 vivo/IQOO 手机。**
+- **已有用户测试，本模块模板不适用于 vivo/IQOO 手机。**
 
 ## 字体模块模板作者
 
