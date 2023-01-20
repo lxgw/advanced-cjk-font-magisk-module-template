@@ -70,7 +70,7 @@
 - **OPPO/一加 ColorOS：** 将 `/system/etc/fonts.xml` 复制到 `/system/system_ext/etc/` *（若无该文件夹请先创建）* 目录并重命名为 `fonts_base.xml`。
 - **一加 HydrogenOS 11 及以上版本：** 将 `/system/etc/fonts.xml` 复制到相同文件夹，并重命名为 `fonts_base.xml。`
 - **魅族 Flyme：** 将 `/system/etc/fonts.xml` 复制 3 份到相同文件夹，并重命名为以下 3 个文件： `fonts_flyme.xml`、`fonts_inter.xml` 和 `fonts_slate.xml`。
-- **小米 MIUI 12.5：** 需刷入 [空字体模块](https://www.coolapk.com/feed/29518682?shareKey=NGU4ODM5Yjk3YjZmNjE4OTNiOTQ~&shareUid=633884&shareFrom=com.coolapk.market_11.4.3)。
+- **小米 MIUI 12.5：** 需刷入 [空字体模块 v4.4](https://yukonga.lanzoub.com/iSxAP07pu05i) / [v4.1](https://wwi.lanzoui.com/iEDyZt6a83g)。
 - LG 手机的兼容性调整请参阅： https://github.com/lxgw/advanced-cjk-font-magisk-module-template/issues/2
 - 如有其他设备的兼容性调整，请在 issue 提出。
 - **本模块模板不适用于 vivo/IQOO 手机。**
