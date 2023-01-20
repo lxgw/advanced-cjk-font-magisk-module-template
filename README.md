@@ -52,7 +52,7 @@
 
 ## 字重测试
 
-[点击此处进入字重测试](https://font.yukonga.top/) （酷安 [@YuKongA / 原名「余空_YuK」](https://www.coolapk.com/u/680367) 制作提供）
+[点击此处进入字重测试](https://font.yukonga.top/) （酷安 [@YuKongA（已注销）](https://www.coolapk.com/u/680367) 制作提供）
 
 ## 注意事项
 
