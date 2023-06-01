@@ -1,3 +1,5 @@
+> 温馨提醒：如果您使用的 ROM 非类原生，请不要使用本字体模块模板😭😭😭
+
 # CJK Font Magisk Module Template <sup>ADVANCED</sup> </br> CJK 字体 Magisk 模块模板 <sup>高级版</sup>
 
 > **重要提醒：**
