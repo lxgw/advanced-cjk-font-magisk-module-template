@@ -1,3 +1,18 @@
+# 请
+# 大
+# 家
+# 选
+# 用
+# 其
+# 他
+# 作
+# 者
+# 的
+# 字
+# 体
+# 模
+# 块
+
 # CJK Font Magisk Module Template <sup>ADVANCED</sup> </br> CJK 字体 Magisk 模块模板 <sup>高级版</sup>
 
 > **重要提醒：**
