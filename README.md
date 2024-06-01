@@ -132,6 +132,7 @@
 - **魅族 Flyme：** 将 `/system/etc/fonts.xml` 复制 3 份到相同文件夹，并重命名为以下 3 个文件： `fonts_flyme.xml`、`fonts_inter.xml` 和 `fonts_slate.xml`。
 - **小米 MIUI 12.5：** 需刷入 [空字体模块 v4.4](https://yukonga.lanzoub.com/iSxAP07pu05i) / [v4.1](https://wwi.lanzoui.com/iEDyZt6a83g)。
 - LG 手机的兼容性调整请参阅： https://github.com/lxgw/advanced-cjk-font-magisk-module-template/issues/2
+- **Android 15 原生/类原生：** 将 `/system/etc/fonts.xml` 复制一份，重命名为 `fonts_fallback.xml`。
 - 如有其他设备的兼容性调整，请在 issue 提出。
 - **已有用户测试，本模块模板不适用于 vivo/IQOO 手机。**
 
