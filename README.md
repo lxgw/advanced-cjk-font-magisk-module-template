@@ -124,7 +124,8 @@
   - APatch 的模块机制与 Magisk 高度相似，大多数 Magisk 模块可直接使用。
   - 部分 APatch 版本（如 KernelPatch 0.11+）可能存在兼容性问题，建议参考 APatch 官方文档确认。
 
-> **注意：** 本模板未在 KernelSU 和 APatch 环境下进行充分测试，如遇问题请参考各方案的官方文档自行调整。
+> [!NOTE]
+> 本模板未在 KernelSU 和 APatch 环境下进行充分测试，如遇问题请参考各方案的官方文档自行调整。
 
 ## 兼容性调整 <sub>仅供参考</sub>
 
