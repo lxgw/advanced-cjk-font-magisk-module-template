@@ -153,7 +153,7 @@
 
 ### 字体配置文件许可证
 
-`/system/etc/fonts.xml` 文件基于 [Android 开源项目 (AOSP)](https://source.android.com/) 的配置文件修改而来，原始文件遵循 **Apache License 2.0**。修改部分同样以 Apache License 2.0 的形式贡献，并按 Apache 2.0 的要求保留原始版权声明。
+`/system/etc/fonts.xml` 文件基于 [Android 开源项目 (AOSP)](https://source.android.com/) 的配置文件修改而来，原始文件遵循 **Apache License 2.0**。修改部分同样以 Apache License 2.0 的形式贡献，并按 Apache License 2.0 的要求保留原始版权声明。
 
 ```
 Copyright (C) 2008 The Android Open Source Project
