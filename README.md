@@ -125,7 +125,7 @@
 
 ## 字体模块模板作者
 
-基于 [Petit-Abba](https://github.com/Petit-Abba)（酷安 [@Kotch / 原名「阿巴酱」](https://www.coolapk.com/u/1132618)） 的 [Magisk-Modules-Template-ge20.4](https://github.com/Petit-Abba/Magisk-Modules-Template-ge20.4) 制作。采用 MIT License 开源发布。
+基于 [Petit-Abba](https://github.com/Petit-Abba)（酷安 [@Kotch / 原名「阿巴酱」](https://www.coolapk.com/u/1132618)） 的 [Magisk-Modules-Template-ge20.4](https://github.com/Petit-Abba/Magisk-Modules-Template-ge20.4) 制作。采用 [MIT License](./LICENSE) 开源发布。
 
 - **Telegram：** @lxgwtg
 - **微信公众号：** 霞鹜 *（ID: lxgwshare）*
