@@ -109,6 +109,23 @@
    - 配合 **Shamiko 0.2.0+**；
    - 在 Magisk 设置中取消勾选「遵守排除列表」，防止排除列表内的应用闪退。
    - **注意：** 请勿在已使用旧版 Magisk Hide 的 Android 12 系统上刷入本模板制作的字体模块，以免引发兼容性问题。
+
+### KernelSU / APatch 兼容性说明
+
+本模板基于 Magisk 模块规范开发，在 KernelSU 和 APatch 上的兼容性说明如下：
+
+- **KernelSU**：
+  - 大多数 Magisk 模块在 KernelSU 上可正常工作。
+  - **注意：** KernelSU 的模块系统与 Magisk 的 magic mount 存在冲突。如果在 KernelSU 中启用了任何模块，Magisk 将完全无法工作。如需同时使用两者，请仅在 KernelSU 中启用 `su`，不启用任何模块。
+  - KernelSU 不支持 Zygisk，如需使用 Zygisk 模块（如 LSPosed），需另外安装 ZygiskNext。
+  - 如果模块需要修改 `/system` 文件，可能需要安装 metamodule（如 meta-overlayfs）。
+
+- **APatch**：
+  - APatch 的模块机制与 Magisk 高度相似，大多数 Magisk 模块可直接使用。
+  - 部分 APatch 版本（如 KernelPatch 0.11+）可能存在兼容性问题，建议参考 APatch 官方文档确认。
+
+> **注意：** 本模板未在 KernelSU 和 APatch 环境下进行充分测试，如遇问题请参考各方案的官方文档自行调整。
+
 ## 兼容性调整 <sub>仅供参考</sub>
 
 >[!WARNING]
