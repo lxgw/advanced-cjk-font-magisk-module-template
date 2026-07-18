@@ -109,6 +109,9 @@
 >[!WARNING]
 > 以下兼容性调整方法基于过往用户反馈整理，部分信息可能已过时，仅供参考，不保证在所有系统版本上有效。
 
+>[!CAUTION]
+> **Android 15 及以上版本的原生/类原生 OS 特别注意：** 根据 Android 官方变更，`fonts.xml` 已被弃用，相关配置需改写到 `font_fallback.xml` 中。请参考[最新 Android 开发者文档](https://source.android.com/docs/core/fonts/custom-font-fallback?hl=zh-cn)调整模块配置。
+
 为了使该模块模板更加适合您的手机，需要对模块模板内的配置文件进行调整：
 
 - **OPPO/一加 ColorOS 13 及以下版本：** 将 `/system/etc/fonts.xml` 复制到 `/system/system_ext/etc/` *（若无该文件夹请先创建）* 目录并重命名为 `fonts_base.xml`。
@@ -117,7 +120,6 @@
 - **魅族 Flyme：** 将 `/system/etc/fonts.xml` 复制 3 份到相同文件夹，并重命名为以下 3 个文件： `fonts_flyme.xml`、`fonts_inter.xml` 和 `fonts_slate.xml`。
 - **小米 MIUI 12.5：** 需刷入 [空字体模块 v4.4](https://yukonga.lanzoub.com/iSxAP07pu05i) / [v4.1](https://wwi.lanzoui.com/iEDyZt6a83g)。
 - LG 手机的兼容性调整请参阅： https://github.com/lxgw/advanced-cjk-font-magisk-module-template/issues/2
-- **Android 15 原生/类原生：** 根据 Android 官方变更，`fonts.xml` 已被弃用，相关配置需改写到 `font_fallback.xml` 中。请参考最新 Android 开发者文档调整模块配置。
 - 如有其他设备的兼容性调整，请在 issue 提出。
 - **已有用户测试，本模块模板不适用于 vivo/IQOO 手机。**
 
