@@ -140,9 +140,17 @@
 
 ## 字体模块模板作者
 
-基于 [Petit-Abba](https://github.com/Petit-Abba)（酷安 [@Kotch / 原名「阿巴酱」](https://www.coolapk.com/u/1132618)） 的 [Magisk-Modules-Template-ge20.4](https://github.com/Petit-Abba/Magisk-Modules-Template-ge20.4) 制作。采用 [MIT License](./LICENSE) 开源发布。
+基于 [Petit-Abba](https://github.com/Petit-Abba)（酷安 [@Kotch / 原名「阿巴酱」](https://www.coolapk.com/u/1132618)） 的 [Magisk-Modules-Template-ge20.4](https://github.com/Petit-Abba/Magisk-Modules-Template-ge20.4) 制作。
 
 - **Telegram：** @lxgwtg
 - **微信公众号：** 霞鹜 *（ID: lxgwshare）*
 - **酷安：** [@落霞孤鹜lxgw](https://www.coolapk.com/u/633884)
 - **微博：** [@孤鹜先森](https://weibo.com/6624339726)
+
+## 许可证
+
+本项目整体采用 [MIT License](./LICENSE) 开源发布。
+
+### 字体配置文件许可证
+
+`/system/etc/fonts.xml` 文件基于 [Android 开源项目 (AOSP)](https://source.android.com/) 的配置文件修改而来，原始文件遵循 **Apache License 2.0**。修改部分同样以 Apache License 2.0 的形式贡献，并按 Apache 2.0 的要求保留原始版权声明。
